@@ -1,0 +1,23 @@
+.header {
+    position: relative;
+    height: 95vh;
+    background-image: linear-gradient(to bottom, #209cff 0%, #68e0cf 100%);,url(../img/bg_img_01.jpg);
+    background-size: cover;
+    background-position: 70% 25%;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    &__logo-box {
+        height: 6rem;
+        width: 6rem;
+        position: absolute;
+        top: 6rem;
+        left: 9rem;
+    }
+    &__text-btn-box {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        right: 10%;
+        color: #fff;
+        backface-visibility: hidden;
+    }
+}

@@ -1,0 +1,45 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes moveInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-5rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes moveInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(2.5rem);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes headerBtnAnim {
+    0% {
+        left: 100%;
+        background-color: $color-btn-hover;
+    }
+    40% {
+        left: -55%;
+        background-color: $color-btn-hover;
+    }
+    100% {
+        width: 35rem;
+        left: 0;
+        background-color: $color-btn-hover;
+    }
+}

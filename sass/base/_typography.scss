@@ -1,0 +1,38 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.heading-primary {
+    margin-bottom: 1.8rem;
+    &--main {
+        display: block;
+        font-size: 5.2rem;
+        font-weight: 700;
+        line-height: 1.2;
+        animation: moveInDown 1s;
+    }
+    &--sub {
+        display: block;
+        font-size: 2.4rem;
+        animation: fadeIn 1.3s;
+    }
+}
+
+.heading-secondary {
+    display: inline-block;
+    margin-top: 15vh;
+    font-weight: 700;
+    line-height: 1.2;
+    color: transparent;
+    background-image: linear-gradient(to right, $color-sheme-1, $color-sheme-2);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
