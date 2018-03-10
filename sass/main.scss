@@ -18,8 +18,9 @@
 @import "layout/header";
 @import "layout/navigation";
 @import "pages/home";
+
 .section-about {
     background-color: $color-grey-light-1;
-    height: 95vh;
-    margin-top: -10vh;
+		height: 65vh;
+		padding-top: 15rem;
 }

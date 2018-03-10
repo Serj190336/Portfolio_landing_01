@@ -10,6 +10,18 @@ h2 {
     font-weight: 700;
 }
 
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.6rem;
+}
+
 .heading-primary {
     margin-bottom: 1.8rem;
     &--main {
@@ -33,6 +45,28 @@ h2 {
     line-height: 1.2;
     color: transparent;
     background-image: linear-gradient(to right, $color-sheme-1, $color-sheme-2);
-    -webkit-background-clip: text;
-    background-clip: text;
+}
+
+.about {
+        text-align: center;
+        &__welcome,
+        &__name {
+            color: $color-grey-dark-1;
+            text-transform: uppercase;
+						font-weight: 800;
+						line-height: 2.8rem;
+        }
+        &__name {
+            display: inline-block;
+            font-size: 3rem;
+            background-color: rgb(17, 86, 189);
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        &__content {
+						margin-top: 2rem;
+            font-style: italic;
+            color: $color-grey-dark-1;
+        }
 }

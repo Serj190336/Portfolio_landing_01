@@ -1,10 +1,9 @@
 .header {
     position: relative;
     height: 95vh;
-    background-image: linear-gradient(to bottom, #209cff 0%, #68e0cf 100%);,url(../img/bg_img_01.jpg);
-    background-size: cover;
+		background-image: linear-gradient(to bottom, rgba(35, 114, 233, 0.7), rgba(43, 194, 101, 0.6)), url(../img/bg_img_01.jpg);
+		background-size: cover;
     background-position: 70% 25%;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     &__logo-box {
         height: 6rem;
         width: 6rem;
