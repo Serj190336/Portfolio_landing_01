@@ -1,0 +1,12 @@
+.feature-box {
+	height: 65vh;
+	text-align: center;
+    &__icon {
+        font-size: 5rem;
+    }
+    &__heading {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    &__text {}
+}
