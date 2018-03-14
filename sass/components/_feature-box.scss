@@ -1,12 +1,28 @@
 .feature-box {
-	height: 65vh;
-	text-align: center;
+		// padding: 4rem 4rem 4rem 4rem;
+		padding: 1.5vw 1vw 2vw 1vw;
+		height: auto;
+    background-color: rgba(#ffffff, 0.7);
+    text-align: center;
+    transition: transform 0.4s;
     &__icon {
+        display: inline-block;
         font-size: 5rem;
+        background-color: $color-sheme-1;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
     }
     &__heading {
+        font-size: 2rem;
         text-transform: uppercase;
         font-weight: 600;
+        clear: both;
+        margin-top: 1rem;
     }
-    &__text {}
+    &__text {
+        font-size: 2rem;
+        clear: both;
+        margin-top: 2rem;
+    }
 }
