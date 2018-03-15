@@ -32,10 +32,24 @@
     }
 }
 
-.row-nm {
+.row-no-margin {
     width: 100%;
     max-width: $grid-width;
     margin: 0 auto;
+}
+
+.row-flex {
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-align-content: center;
+    align-content: center;
 }
 
 .col-1-of-2-nm {

@@ -64,14 +64,43 @@ h5 {
     &__name {
         display: inline-block;
         font-size: 3rem;
-        background-color: rgb(17, 86, 189);
-        color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text;
+        color: rgb(17, 86, 189);
     }
     &__content {
         margin-top: 2rem;
         font-style: italic;
         color: $color-grey-dark-1;
     }
+}
+
+.feature-box {
+    &__icon {
+        display: inline-block;
+        font-size: 7rem;
+        background-color: $color-sheme-1;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    &__heading {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        clear: both;
+    }
+    &__text {
+        font-size: 2rem;
+        clear: both;
+        margin-top: 2rem;
+    }
+}
+
+.tours-main-heading {
+	font-weight: 800;
+    position: absolute;
+    top: 10rem;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    color: rgb(17, 86, 189);
 }
