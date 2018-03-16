@@ -1,7 +1,7 @@
 .tours-box {
     position: relative;
     min-width: 250px;
-    min-height: 500px;
+    min-height: 58rem;
     margin: 10px 0 10px 0;
     color: #fff;
     perspective: 1500px;
@@ -19,7 +19,6 @@
         box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.35);
         &--front {
             background-color: #fff;
-            padding: 0 0 20px 0;
         }
         &--back {
             background-color: rgb(93, 228, 122);
@@ -54,8 +53,28 @@
         &--1 {
             background-color: rgba(93, 212, 233, 0.5);
         }
+        &--2 {
+            background-color: rgba(255, 120, 120, 0.6);
+        }
+        &--3 {
+            background-color: rgba(80, 180, 50, 0.6);
+        }
     }
     &__info {
+        padding: 4rem 2rem 4rem 2rem;
+        font-size: 1.8rem;
+        color: #808080;
         text-align: center;
+        &>ul {
+            min-width: 80%;
+            margin: 0 auto;
+            list-style: none;
+            &>li:not(:last-child) {
+                border-bottom: 1px solid #eee;
+            }
+            &>li {
+                padding: 1rem;
+            }
+        }
     }
 }

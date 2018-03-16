@@ -264,7 +264,7 @@ h5 {
 .tours-box {
   position: relative;
   min-width: 250px;
-  min-height: 500px;
+  min-height: 58rem;
   margin: 10px 0 10px 0;
   color: #fff;
   perspective: 1500px;
@@ -281,8 +281,7 @@ h5 {
     overflow: hidden;
     box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.35); }
     .tours-box__side--front {
-      background-color: #fff;
-      padding: 0 0 20px 0; }
+      background-color: #fff; }
     .tours-box__side--back {
       background-color: #5de47a;
       transform: rotateY(180deg); }
@@ -307,8 +306,23 @@ h5 {
     text-transform: uppercase; }
     .tours-box__heading--1 {
       background-color: rgba(93, 212, 233, 0.5); }
+    .tours-box__heading--2 {
+      background-color: rgba(255, 120, 120, 0.6); }
+    .tours-box__heading--3 {
+      background-color: rgba(80, 180, 50, 0.6); }
   .tours-box__info {
+    padding: 4rem 2rem 4rem 2rem;
+    font-size: 1.8rem;
+    color: #808080;
     text-align: center; }
+    .tours-box__info > ul {
+      min-width: 80%;
+      margin: 0 auto;
+      list-style: none; }
+      .tours-box__info > ul > li:not(:last-child) {
+        border-bottom: 1px solid #eee; }
+      .tours-box__info > ul > li {
+        padding: 1rem; }
 
 .row {
   width: 100%;
@@ -353,7 +367,18 @@ h5 {
   -webkit-align-items: center;
   align-items: center;
   -webkit-align-content: center;
-  align-content: center; }
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 140rem; }
+  .row-flex:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row-flex [class^="col-"] {
+    float: left; }
+    .row-flex [class^="col-"]:not(:last-child) {
+      margin-right: 12rem; }
+  .row-flex .col-1-of-3-bigger-margin {
+    width: calc((100% - 2 * 12rem) / 3); }
 
 .col-1-of-2-nm {
   width: 50%;

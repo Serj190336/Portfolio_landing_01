@@ -50,6 +50,21 @@
     align-items: center;
     -webkit-align-content: center;
     align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: $grid-width;
+    &:not(:last-child) {
+        margin-bottom: $gutter-vertical;
+    }
+    [class^="col-"] {
+        float: left;
+        &:not(:last-child) {
+            margin-right: $gutter-horizontal-big;
+        }
+    }
+    .col-1-of-3-bigger-margin {
+        width: calc((100% - 2 * #{$gutter-horizontal-big}) / 3);
+    }
 }
 
 .col-1-of-2-nm {
