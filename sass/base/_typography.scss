@@ -96,8 +96,18 @@ h5 {
 }
 
 .tours-main-heading {
-    position: absolute;
-    top: 8rem;
+    clear: both;
+    margin-bottom: 5rem;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    color: #909090;
+}
+
+.photo-heading {
+    clear: both;
+    margin-bottom: 5rem;
     font-size: 4.5rem;
     text-transform: uppercase;
     text-align: center;

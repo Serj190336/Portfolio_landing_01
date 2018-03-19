@@ -1,7 +1,8 @@
 .header {
     position: relative;
     height: 95vh;
-    background-image: linear-gradient(to bottom, rgba(35, 114, 233, 0.7), rgba(95, 175, 200, 0.7)), url(../img/bg_img_01.jpg);
+		// background-image: linear-gradient(to bottom, rgba(35, 114, 233, 0.7), rgba(95, 175, 200, 0.7)), url(../img/bg_img_01.jpg);
+		 background-image: url(../img/bg_img_01.jpg);
     background-size: cover;
     background-position: 70% 25%;
     &__logo-box {

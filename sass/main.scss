@@ -19,6 +19,7 @@
 @import "layout/header";
 @import "layout/navigation";
 @import "pages/home";
+
 .section-about {
     min-height: 70vh;
     background-color: $color-grey-light-1;
@@ -57,16 +58,13 @@
 
 .section-tours {
     min-height: 75vh;
-    padding: 20rem 6rem 6rem 6rem;
+    padding: 6rem;
     position: relative;
     background-color: $color-grey-light-1;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
 }
+
+.section-photo {
+    min-height: 65vh;
+    padding: 6rem;
+}
+
